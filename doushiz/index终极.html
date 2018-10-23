@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+	<meta charset="UTF-8">
+	<title>斗地主</title>
+	
+   <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+   <script type="text/javascript" src="./js/game.js"></script>
+   <script type="text/javascript" src="./js/index.js"></script>
+   <link rel="stylesheet" href="./css/index.css">
+
+</head>
+<body>
+	<!-- <audio autoplay="autoplay" loop="loop">
+		<source src="./media/audio/music.mp3" type="audio/mpeg" />
+	</audio> -->
+	<div class = "box">
+	<div class="left">
+		<div id="time"></div>
+		<div class="Head_portrait"></div>
+		<p class="time"></p>
+		<ul class="play_1 play"></ul>
+		<p class="play_btn">
+			<input class="get" type="button" name="" value="抢地主">
+			<input class="cancel" type="button" name="" value="不抢">
+		</p>
+		<p class="play_btn2">
+			<input  class=" play_out" type="button" name="" value="出牌">
+			<input  class=" pass" type="button" name="" value="不出">
+			<input class="tips" type="button" name="" value="提示">
+		</p>
+	</div>
+	<div class="mid">
+		<div class="box_mov">
+		</div>
+		<div class="mid_top">
+			<ul class="all_poker"></ul>
+		</div>
+		<div class="mid_center">
+			<button id="riffle" >洗牌</button>  
+			<button id="deal" >发牌</button>
+				<ul class="desktop">
+					<!--<li class="select" style="width: 125px; height: 175px; background: url(./img/14.png) -162px -5px;"></li>--> 
+					
+				</ul>
+			</div>  
+		<div class="mid_end">
+			
+			<div class="Head_portrait"></div>
+			
+			<p class="time"></p>
+			<ul class="play_2 play">
+			<!--<li style="width: 125px; height: 175px; background: url(./images/14.png) -162px -5px;"></li>
+			 <li class="select" style="width: 125px; height: 175px; background: url(./images/14.png) -162px -5px;"></li> -->
+			</ul>
+			<p class="play_btn">
+				<input class="get" type="button" name="" value="抢地主">
+				<input class="cancel" type="button" name="" value="不抢">
+			</p>
+			<p class="play_btn2">
+				<input class="play_out" type="button" name="" value="出牌">
+				<input class="pass" type="button" name="" value="不出">
+				<input class="tips" type="button" name="" value="提示">
+
+				
+			</p>
+		</div>
+	</div>
+	<div class="right">
+		<div class="Head_portrait"></div>
+
+		<p class="time"></p>
+		<ul class="play_3 play"></ul>
+		<p class="play_btn">
+			<input class="get" type="button" name="" value="抢地主">
+			<input class="cancel" type="button" name="" value="不抢">
+		</p>
+		<p class="play_btn2">
+			<input  class=" play_out" type="button" name="" value="出牌">
+			<input  class=" pass" type="button" name="" value="不出">
+			<input class="tips" type="button" name="" value="提示">
+
+		</p>
+		
+	</div>
+	</div>
+	<button id="btn_end">再来一局</button>
+	<div class="open">
+		<img class="img_top" src="./images/back_top.jpg">
+		<img class="img_btm" src="./images/back_btm.jpg">
+	</div>
+	<audio  id="keyplay" src="#"  autoplay ></audio>
+	<div class="win_back"></div>
+</body>
+</html>
